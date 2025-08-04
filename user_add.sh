@@ -16,14 +16,7 @@ timestamp=$(date '+%Y%m%d%H%M')
 
                     If an SSH key is provided, account will be set to SSHONLY without password expiration
                                  #If there is no key, the line has to end with a colon ':'
-
-                 The optional parameter "--home" can (and should) be used if a different homedirectory than the standard is desired, e.g. if customer
-                                 want to have his own account with a homedirectory under /app/home/<userid>, the corresponding command would be:
-
-                                         $(basename $0) <serverlist> <userlist> --home=/app/home
-
-                                      Do __NOT__ use whitespace within the path for the homedirectory, also do not provide a username in that.
-
+                
 EOC
                                                                      }     
 
